@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ 
+ <style>
+
+   .Subscribe-button{
+     background-color: rgb(200, 0, 0);
+     color:white;
+     border: none;
+     border-radius: 2px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;
+     margin-right: 8px;
+     transition: opacity 0.15s;
+   }
+
+   .Subscribe-button:hover{
+     opacity: 0.8;
+   }
+
+   .Subscribe-button:active{
+     opacity: 0.5;
+     
+   }
+
+    .Join-button{
+     background-color: white;
+     color: rgb(41, 118, 211);
+     font-weight: bold;
+     padding-left: 11px;
+     padding-right: 11px;
+     padding-top: 7px;
+     padding-bottom: 7px;
+     cursor: pointer;
+     margin-right: 8px;
+     border-radius: 2px;
+     border: solid rgb(41, 118, 211) 2px;
+     transition: background-color 0.15s, color 0.15s;
+   }
+
+    .Join-button:hover{
+     background-color: rgb(41, 118, 211);
+     color: white;
+   }
+
+    .Join-button:active{
+     opacity: 0.7;
+
+   }
+
+   .Tweet-button{
+    background-color: blue;
+     color:white;
+     font-size: 15px;
+     font-weight: bolder;
+     border: none;
+     border-radius: 16px;
+     padding-left: 13px;
+     padding-right: 13px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     cursor: pointer;
+     margin-right: 8px;
+     margin-bottom: 20px;
+     transition: opacity 0.15s;
+   }
+
+   .Tweet-button:hover{
+    opacity: 0.5;
+     box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15);
+   }
+
+   .Tweet-button:active{
+     opacity: 0.7;
+   }
+
+   .Back-button{
+     background-color: rgb(235, 232, 232);
+     color: black;
+     font-weight: bold;
+     border:solid black 1px;
+     border-radius: 3px;
+     height: 9vh;
+     width: 11vh;
+     margin-right: 10px;
+    }
+
+    .One{
+      display: inline-block;
+      margin-right: 10px;
+      padding: 5px;
+      color: purple;
+      font-size: 1.5em;
+    }
+
+    .Next-button{
+      background-color: rgb(235, 232, 232);
+     color: black;
+     font-weight: bold;
+     border: solid black 1px;
+     border-radius: 3px;
+     height: 9vh;
+     width: 11vh;
+     margin-right: 10px
+    }
+
+    .Stretch-button{
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: large;
+      border-radius: 2px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      cursor: pointer;
+      transition: background-color 0.15s, font-stretch 0.15s;
+      font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+      font-stretch: ultra-expanded;
+    }
+
+    .Stretch-button:hover{
+      background-color: rgb(53, 209, 53);   
+    }
+
+    .Shadow-button{
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: x-large;
+      border-radius: 2px;
+      margin-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+      box-shadow: 2px 2px 7px gray; rgba(0, 0, 0, 0.15);
+      transition: box-shadow 0.15s;
+    }
+
+    .Shadow-button:hover{
+      box-shadow: 3px 2px 6px gray; rgba(5, 5, 5, 0.05);
+    }
+
+    .One-button{
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: large;
+      margin-left: 133px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      cursor: pointer;
+    }
+
+    .Two-button{
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: large;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      cursor: pointer;
+    }
+    .Three-button{
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: large;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      cursor: pointer;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <button class="Subscribe-button">
+    SUBSCRIBE
+  </button>
+
+  <button class="Join-button">
+    JOIN
+  </button>
+
+  <button class="Tweet-button">
+    Tweet
+  </button>
+  
+  <br>
+
+  <button class="Back-button">
+    Back
+  </button>
+<div class="One" >
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+</div>
+  <button class="Next-button">
+    Next
+  </button>
+
+  <button class="Stretch-button">
+    Stretch
+  </button>
+
+  <br>
+
+  <button class="Shadow-button">
+    Shadow
+  </button>
+
+  <button class="One-button">
+    One
+  </button>
+
+  <button class="Two-button">
+    Two
+  </button>
+
+  <button class="Three-button">
+    Three
+  </button>
+  
+</body>
+
+</html>
